@@ -6,54 +6,29 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
 {{% /notice %}}
 
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tập trung vào các workshop tối ưu vận hành và bảo mật từ Cloud Journey.
+* Tìm hiểu cách AWS hỗ trợ governance, tự động hóa hạ tầng, kiểm soát truy cập và bảo vệ dữ liệu.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu tổ chức tài nguyên và governance truy cập <br>&emsp; + Tags và Resource Groups <br>&emsp; + IAM kết hợp resource tags | 01/09/2025 | 01/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu AWS Systems Manager và Session Manager <br>&emsp; + Khái niệm managed instance <br>&emsp; + Remote server access không cần mở SSH trực tiếp | 02/09/2025 | 02/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tìm hiểu Infrastructure as Code <br>&emsp; + AWS CloudFormation <br>&emsp; + AWS CDK Essentials và Advanced <br>&emsp; + Tổng quan IaC workshop series | 03/09/2025 | 03/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Ôn các chủ đề tối ưu vận hành <br>&emsp; + EC2 resource optimization <br>&emsp; + VPC Flow Logs <br>&emsp; + Billing delegation, Service Quotas, Cost and Usage Management | 04/09/2025 | 04/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Tìm hiểu identity và policy security <br>&emsp; + AWS Single Sign-On <br>&emsp; + IAM Permission Boundaries <br>&emsp; + IAM policies and conditions | 05/09/2025 | 05/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - Tìm hiểu các dịch vụ bảo mật <br>&emsp; + AWS Security Hub <br>&emsp; + Private Access to S3 with VPC Endpoints <br>&emsp; + AWS WAF, KMS và Amazon Macie | 06/09/2025 | 06/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
+* Hiểu cách tagging, IAM và Systems Manager hỗ trợ governance và vận hành an toàn.
+* Nắm vai trò của CloudFormation và CDK trong triển khai hạ tầng lặp lại được.
+* Xác định các dịch vụ bảo mật AWS liên quan đến identity, network access, encryption và phát hiện dữ liệu nhạy cảm.
 * ...
-
-

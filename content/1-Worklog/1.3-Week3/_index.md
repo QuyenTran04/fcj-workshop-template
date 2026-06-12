@@ -5,53 +5,30 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+{{% notice warning %}}
+**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the remaining Explore AWS topics and begin migration and operations optimization topics.
+* Understand how networking, CLI, database, CDN, and migration services fit into real workloads.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Study Amazon Route 53 and hybrid DNS management <br>&emsp; + Hosted zone, record, resolver concept <br>&emsp; + DNS routing in AWS workloads | 08/25/2025 | 08/25/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Practice command line operations with AWS CLI <br>&emsp; + Configure profile and region <br>&emsp; + Review common service commands | 08/26/2025 | 08/26/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Explore DynamoDB, ElastiCache, CloudFront, and Lambda@Edge <br>&emsp; + NoSQL database <br>&emsp; + Caching and edge delivery concepts | 08/27/2025 | 08/27/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Review Networking on AWS, Windows workloads, Managed Microsoft AD, and highly available web application patterns | 08/28/2025 | 08/28/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Study migration services <br>&emsp; + AWS VM Import/Export <br>&emsp; + AWS DMS and SCT <br>&emsp; + AWS Elastic Disaster Recovery | 08/29/2025 | 08/29/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - Begin operations optimization topics <br>&emsp; + AWS Lambda automation <br>&emsp; + CloudWatch with Grafana <br>&emsp; + CloudWatch Advanced workshop overview | 08/30/2025 | 08/30/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* Completed a broad survey of foundational AWS services from Cloud Journey.
+* Understood the role of migration services in moving workloads to AWS.
+* Started connecting monitoring and automation to operational excellence.
 * ...

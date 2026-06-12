@@ -5,53 +5,30 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+{{% notice warning %}}
+**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Study application modernization workshops, especially serverless and microservices paths.
+* Understand how AWS supports modern application architecture, authentication, event processing, monitoring, and deployment automation.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Review DevAx modernization path <br>&emsp; + Monolith to microservices migration <br>&emsp; + CI/CD for application release | 09/15/2025 | 09/15/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Study microservices implementation topics <br>&emsp; + Building microservices <br>&emsp; + Data and workflow restructuring | 09/16/2025 | 09/16/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Explore event-driven and frontend modernization <br>&emsp; + Event-driven architecture <br>&emsp; + Single page application authentication <br>&emsp; + AWS AI services integration | 09/17/2025 | 09/17/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Begin Book Store serverless series <br>&emsp; + Lambda, S3, and DynamoDB backend <br>&emsp; + Frontend development for serverless APIs <br>&emsp; + Deployment automation with AWS SAM | 09/18/2025 | 09/18/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Continue Book Store serverless series <br>&emsp; + Cognito authentication <br>&emsp; + Custom domains and SSL <br>&emsp; + SQS and SNS event processing | 09/19/2025 | 09/19/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - Complete Book Store serverless series <br>&emsp; + CI/CD for serverless applications <br>&emsp; + Monitoring serverless applications <br>&emsp; + GraphQL APIs with AWS AppSync | 09/20/2025 | 09/20/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* Understood modernization patterns from monolith migration to microservices and event-driven design.
+* Learned the main building blocks of serverless web applications on AWS.
+* Connected authentication, deployment automation, monitoring, and API design into one application lifecycle.
 * ...
