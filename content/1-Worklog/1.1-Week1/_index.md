@@ -5,30 +5,26 @@ weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
 
-* Build the first AWS foundation from account setup to core compute and networking services.
-* Practice navigating Cloud Journey workshops and documenting daily learning outcomes.
+* Get familiar with fundamental AWS services and Cloud account management.
+* Learn the foundations of cost management, support, IAM, VPC, and Amazon EC2.
+* Practice provisioning infrastructure and deploying a first application on AWS.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+**Duration:** April 20, 2026 - April 26, 2026
+
+### Learning content this week:
+| Day | Learning content | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Create the first AWS account and review AWS Free Tier credit usage <br>&emsp; + Understand Free Tier limits <br>&emsp; + Note services that may generate unexpected cost | 08/11/2025 | 08/11/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Learn cost control and support fundamentals <br>&emsp; + Configure AWS Budgets concepts <br>&emsp; + Review AWS Support channels and documentation workflow | 08/12/2025 | 08/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Study access management with IAM <br>&emsp; + Users, groups, roles, and policies <br>&emsp; + Account security best practices | 08/13/2025 | 08/13/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Learn Amazon VPC networking essentials <br>&emsp; + VPC, subnet, route table, Internet Gateway <br>&emsp; + Security Group and Network ACL basics | 08/14/2025 | 08/14/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Learn Amazon EC2 compute essentials <br>&emsp; + AMI, instance type, key pair, EBS volume <br>&emsp; + Connect to an instance and inspect metadata | 08/15/2025 | 08/15/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | - Review the week and summarize the relationship between account, IAM, VPC, and EC2 in a basic AWS environment | 08/16/2025 | 08/16/2025 | <https://cloudjourney.awsstudygroup.com/> |
-
+| Monday | Became familiar with the internship program, cloud computing, and the major AWS service categories | 04/20/2026 | 04/20/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Tuesday | Learned how to create and manage an AWS account, use AWS Free Tier, and monitor usage costs | 04/21/2026 | 04/21/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Wednesday | Studied AWS Support and configured IAM users, groups, policies, roles, and least-privilege access | 04/22/2026 | 04/22/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Thursday | Studied and practiced Amazon VPC, subnets, route tables, Internet Gateways, and Security Groups | 04/23/2026 | 04/23/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Friday | Launched an Amazon EC2 instance, configured access, deployed a basic application, and verified connectivity | 04/24/2026 | 04/24/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
 
 ### Week 1 Achievements:
 
-* Understood the purpose of AWS account setup, Free Tier, budget monitoring, and support resources.
-* Built a first mental model of IAM, VPC, and EC2 as the foundation for later hands-on labs.
-* Prepared notes for safe resource usage and basic cloud operations.
-* ...
+* Understood the AWS foundation: accounts, billing, support, IAM, VPC, and EC2.
+* Learned how to create resources, configure access, and deploy a basic application on EC2.
+* Built a foundation for deeper AWS service research in the following week.

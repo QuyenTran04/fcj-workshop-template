@@ -6,121 +6,175 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “AI & Cloud Sharing Session”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share how effective context helps AI produce more relevant results
+- Introduce AI assistants for data analysis and workflow creation
+- Present the role of Amazon CloudFront in performance, security, and cost optimization
+- Share practical experience from developing a product during a hackathon
+- Explain LLM non-determinism and mitigation strategies
+- Introduce enterprise multi-agent systems through a practical use case
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Tinh Truong** - Context Is Everything: Making AI Actually Work for You
+- **Anh Pham** - Friendly AI Assistant with Amazon Quick
+- **Thinh Nguyen** - From Edge To Origin: CloudFront as Your Foundation
+- **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
+- **Duc Dao** - Non-Determinism of "Deterministic" LLM Settings
+- **Vy Lam** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Context Is Everything: Making AI Actually Work for You — 09:00 - 09:30
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Why AI fails when it does not have enough context
+- What context really means when working with AI
+- The evolution from prompts to memory and the **Second AI Brain** concept
+- Practical mindset and tips for providing better context
+- Career insights and how students can start building with AI
+- Further discussion through a Q&A session
 
-#### Transitioning to modern application architecture – Microservices
+#### Friendly AI Assistant with Amazon Quick — 09:30 - 09:45
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- **Quick Chat Agent**: AI assistants for exploring data and analyzing insights
+- **Quick Flows**: Creating intelligent workflows with natural language and no coding required
+- **Quick Spaces**: Shared collaborative spaces that turn individual insights into team knowledge
+- **Quick Sight**: Building dashboards and reports from raw data using natural language
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### From Edge To Origin: CloudFront as Your Foundation — 09:45 - 10:25
 
-#### Domain-Driven Design (DDD)
+- Using **Amazon CloudFront** for different types of workloads
+- Cost optimization with Amazon CloudFront
+- CloudFront security capabilities
+- Enhanced application reliability through the edge network
+- Improved performance and reduced latency for users across regions
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality — 10:25 - 10:55
 
-#### Event-Driven Architecture
+- Why Team VIB joined LotusHacks
+- The brainstorming journey from zero to a product idea
+- Defining the problem and shaping **UTMorpho**
+- Building the product during a 36-hour development sprint
+- Challenges, failures, and important turning points
+- UTMorpho product overview and demo
+- Key learnings and what comes next
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Break — 10:55 - 11:00
 
-#### Compute Evolution
+- A short break between the sharing sessions
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### Non-Determinism of "Deterministic" LLM Settings — 11:00 - 11:30
 
-#### Amazon Q Developer
+- How LLMs choose the next token
+- The assumption that `temperature = 0` guarantees determinism
+- How inference optimizations can affect model output
+- Practical impacts of non-determinism in AI systems
+- Mitigation strategies when deploying LLMs in products
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring — 11:30 - 12:00
+
+- The structural mismatch between traditional banking systems and startup data
+- When to use a Single Agent and when not to
+- The **Multi-Agent Paradigm**
+- The blueprint of a **Virtual Credit Committee**
+- The role of guardrails and compliance
+- Operational ROI and implementation roadmap
+- What comes next and Q&A
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Mindset for Working with AI
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Context is everything**: Output quality depends heavily on the provided background, goals, data, and constraints
+- **From prompts to memory**: AI is evolving from a question-answering tool into a system capable of using memory and personal knowledge
+- **Second AI Brain**: Documents, notes, and knowledge can be organized so AI can better support learning and work
+- **Practical AI mindset**: Selecting a strong model is not enough; context and workflow design are equally important
 
-#### Technical Architecture
+#### AI Assistants and Data Exploration
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- Use AI assistants to explore data and analyze insights
+- Create workflows with natural language without writing code
+- Turn individual insights into knowledge that can be shared across a team
+- Build dashboards and reports directly from raw data
 
-#### Modernization Strategy
+#### Cloud Architecture and Amazon CloudFront
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- CloudFront is more than a CDN; it also supports performance, security, and reliability
+- The edge network helps reduce latency for users across regions
+- CloudFront can serve as a foundation layer in web and API architectures
+- Architecture optimization requires balancing performance, security, and cost
+
+#### Product Development
+
+- Identifying the right problem is an important step before building a solution
+- Under limited time, teams need clear responsibilities and focus on core features
+- Failure and changes in direction are part of product development
+- A working demo depends on collaboration, adaptability, and fast decision-making
+
+#### LLM Reliability
+
+- `temperature = 0` does not always guarantee identical output
+- Inference-level optimizations can affect token selection
+- AI systems require testing, monitoring, and mechanisms for handling output variations
+- Stability should not depend on a single model setting
+
+#### Multi-Agent Architecture
+
+- A Single Agent is not always suitable for complex business workflows
+- Multi-agent systems separate responsibilities across specialized roles
+- Agents need to collaborate through a unified process rather than operate independently
+- Guardrails and compliance are essential for enterprise AI systems
+- Implementation should be based on operational value and a clear roadmap
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Improve prompts and context**: Provide goals, data, constraints, and the expected output format when working with AI
+- **Build a personal knowledge base**: Apply the Second AI Brain concept to organize documents and learning notes
+- **Integrate AI into workflows**: Explore AI assistants for data analysis, report generation, and task automation
+- **Optimize applications with CloudFront**: Consider CloudFront to improve performance, security, and reliability
+- **Design LLM testing strategies**: Build test sets, evaluation criteria, and monitoring instead of assuming deterministic output
+- **Evaluate multi-agent solutions**: Use multiple agents only when the problem requires specialized roles and a clear coordination mechanism
+- **Apply the hackathon mindset**: Prioritize the core problem, build an MVP, and adapt quickly based on feedback
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **“AI & Cloud Sharing Session”** was a valuable experience that gave me a broader view of how AI and Cloud are being applied in learning, product development, and enterprise systems. Key experiences included:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from experienced speakers
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Each speaker provided a different perspective, from effective AI usage to Cloud and multi-agent architecture design.
+- The sessions were connected to practical situations, helping me better understand the value and limitations of each technology.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Changing how I work with AI
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- The **Context Is Everything** session showed me that AI output depends not only on the model or prompt but also on the quality of context.
+- The **Second AI Brain** concept suggested a new way to organize personal knowledge so AI can better support learning and work.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Understanding Cloud architecture
+
+- The Amazon CloudFront session showed me that CloudFront is not limited to content caching.
+- It can also become an important layer for improving system performance, security, reliability, and cost efficiency.
+
+#### Learning from real product development
+
+- The story of building UTMorpho in 36 hours highlighted the importance of choosing the right problem and focusing on the core product.
+- Team VIB’s challenges and turning points demonstrated the importance of adaptability when working under time pressure.
+
+#### Understanding the limitations of LLMs
+
+- The non-determinism session showed me that `temperature = 0` does not necessarily produce identical output every time.
+- This lesson is valuable when designing tests and evaluating the stability of LLM-powered applications.
+
+#### Exploring enterprise multi-agent systems
+
+- The Startup Credit Scoring use case demonstrated how specialized agents can collaborate like a virtual credit committee.
+- I learned that multi-agent systems need guardrails, compliance, and clear orchestration processes before they can be used in practice.
 
 #### Some event photos
-*Add your event photos here*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+*Add event photos here*
+
+> Overall, the event not only provided knowledge about AI and Cloud but also changed how I think about context, LLM reliability, product development, and multi-agent system design in real-world environments.

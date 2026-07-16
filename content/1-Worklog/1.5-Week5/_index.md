@@ -1,34 +1,30 @@
 ---
 title: "Week 5 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Continue optimization topics across security, reliability, performance, and cost.
-* Compare AWS services that improve resilience, deployment speed, storage performance, and spending visibility.
+* Participate in modernizing a Java Spring Boot application from Monolithic to Microservices.
+* Deploy Serverless and SPA components on AWS.
+* Build CI/CD, monitoring, and workflows for a modern application.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+**Duration:** May 18, 2026 - May 24, 2026
+
+### Learning content this week:
+| Day | Learning content | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Complete remaining security optimization topics <br>&emsp; + Secrets Manager <br>&emsp; + Firewall Manager <br>&emsp; + GuardDuty, EC2 Image Builder, Cognito, and S3 security best practices | 09/08/2025 | 09/08/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Study reliability foundations <br>&emsp; + AWS Backup <br>&emsp; + VPC Peering <br>&emsp; + AWS Transit Gateway | 09/09/2025 | 09/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Review reliability patterns for messaging and high availability <br>&emsp; + SQS and SNS <br>&emsp; + EBS Multi-Attach <br>&emsp; + Windows and SQL Server HA patterns | 09/10/2025 | 09/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Study performance topics for containers and delivery <br>&emsp; + Docker <br>&emsp; + Amazon ECS <br>&emsp; + ECS with CDK | 09/11/2025 | 09/11/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Review DevOps, storage, and workflow performance topics <br>&emsp; + CodePipeline <br>&emsp; + Storage Gateway and Amazon FSx <br>&emsp; + DynamoDB advanced, Step Functions, Storage Performance | 09/12/2025 | 09/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | - Study cost optimization workshops <br>&emsp; + Savings Plans and Reserved Instances <br>&emsp; + Cost visualization and analytics <br>&emsp; + Glue and Athena for cost data analysis | 09/13/2025 | 09/13/2025 | <https://cloudjourney.awsstudygroup.com/> |
-
+| Monday | Analyzed a Java Spring Boot Monolith, identified service boundaries, and planned the Microservices transition | 05/18/2026 | 05/18/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Tuesday | Built and tested independent services and APIs for inter-service communication | 05/19/2026 | 05/19/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Wednesday | Deployed Lambda, API Gateway, S3, and DynamoDB for a Serverless backend and SPA | 05/20/2026 | 05/20/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Thursday | Integrated SQS, SNS, and Cognito for asynchronous processing, notifications, authentication, and authorization | 05/21/2026 | 05/21/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Friday | Built CI/CD with CodePipeline, monitored with CloudWatch and X-Ray, and studied Step Functions and AppSync | 05/22/2026 | 05/22/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
 
 ### Week 5 Achievements:
 
-* Mapped security services to credential management, threat detection, governance, and S3 protection.
-* Understood reliability patterns for backup, networking, messaging, and high availability.
-* Summarized performance and cost optimization services for later project planning.
-* ...
+* Understood how to decompose a Monolithic application into independent Microservices.
+* Learned how AWS Serverless, messaging, and authentication services work together.
+* Learned CI/CD, monitoring, tracing, and orchestration practices for modern applications.

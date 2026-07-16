@@ -1,34 +1,30 @@
 ---
 title: "Week 3 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
 
-* Complete the remaining Explore AWS topics and begin migration and operations optimization topics.
-* Understand how networking, CLI, database, CDN, and migration services fit into real workloads.
+* Learn AWS monitoring and operational support tools.
+* Practice using AWS CLI for command-line resource management.
+* Study Route 53 Resolver and Hybrid DNS architecture.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+**Duration:** May 4, 2026 - May 10, 2026
+
+### Learning content this week:
+| Day | Learning content | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Study Amazon Route 53 and hybrid DNS management <br>&emsp; + Hosted zone, record, resolver concept <br>&emsp; + DNS routing in AWS workloads | 08/25/2025 | 08/25/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Practice command line operations with AWS CLI <br>&emsp; + Configure profile and region <br>&emsp; + Review common service commands | 08/26/2025 | 08/26/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Explore DynamoDB, ElastiCache, CloudFront, and Lambda@Edge <br>&emsp; + NoSQL database <br>&emsp; + Caching and edge delivery concepts | 08/27/2025 | 08/27/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Review Networking on AWS, Windows workloads, Managed Microsoft AD, and highly available web application patterns | 08/28/2025 | 08/28/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Study migration services <br>&emsp; + AWS VM Import/Export <br>&emsp; + AWS DMS and SCT <br>&emsp; + AWS Elastic Disaster Recovery | 08/29/2025 | 08/29/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | - Begin operations optimization topics <br>&emsp; + AWS Lambda automation <br>&emsp; + CloudWatch with Grafana <br>&emsp; + CloudWatch Advanced workshop overview | 08/30/2025 | 08/30/2025 | <https://cloudjourney.awsstudygroup.com/> |
-
+| Monday | Studied Amazon CloudWatch metrics, logs, dashboards, and alarms for AWS resource monitoring | 05/04/2026 | 05/04/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Tuesday | Created CloudWatch alarms, reviewed logs, and built a system health dashboard | 05/05/2026 | 05/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Wednesday | Learned AWS Support plans, AWS Trusted Advisor, and the operational support process | 05/06/2026 | 05/06/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Thursday | Installed and configured AWS CLI, then queried and managed basic resources from the command line | 05/07/2026 | 05/07/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Friday | Studied Route 53 Resolver inbound/outbound endpoints, forwarding rules, and Hybrid DNS configuration | 05/08/2026 | 05/08/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
 
 ### Week 3 Achievements:
 
-* Completed a broad survey of foundational AWS services from Cloud Journey.
-* Understood the role of migration services in moving workloads to AWS.
-* Started connecting monitoring and automation to operational excellence.
-* ...
+* Learned how to use CloudWatch for metrics, logs, dashboards, and operational alerts.
+* Became able to perform basic resource operations with AWS CLI.
+* Understood DNS resolution and Hybrid DNS design with Route 53 Resolver.

@@ -1,34 +1,30 @@
 ---
 title: "Worklog Tuần 4"
 date: 2024-01-01
-weight: 1
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
 
-* Tập trung vào các workshop tối ưu vận hành và bảo mật từ Cloud Journey.
-* Tìm hiểu cách AWS hỗ trợ governance, tự động hóa hạ tầng, kiểm soát truy cập và bảo vệ dữ liệu.
+* Tìm hiểu quy trình và chiến lược Migration to AWS.
+* Thực hành di chuyển máy chủ ảo và cơ sở dữ liệu lên AWS.
+* Đánh giá kết nối, độ ổn định và tối ưu hệ thống sau migration.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+**Thời gian:** 11/05/2026 - 17/05/2026
+
+### Nội dung đã học trong tuần này:
+| Thứ | Nội dung học tập | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Tìm hiểu tổ chức tài nguyên và governance truy cập <br>&emsp; + Tags và Resource Groups <br>&emsp; + IAM kết hợp resource tags | 01/09/2025 | 01/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu AWS Systems Manager và Session Manager <br>&emsp; + Khái niệm managed instance <br>&emsp; + Remote server access không cần mở SSH trực tiếp | 02/09/2025 | 02/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Tìm hiểu Infrastructure as Code <br>&emsp; + AWS CloudFormation <br>&emsp; + AWS CDK Essentials và Advanced <br>&emsp; + Tổng quan IaC workshop series | 03/09/2025 | 03/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Ôn các chủ đề tối ưu vận hành <br>&emsp; + EC2 resource optimization <br>&emsp; + VPC Flow Logs <br>&emsp; + Billing delegation, Service Quotas, Cost and Usage Management | 04/09/2025 | 04/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Tìm hiểu identity và policy security <br>&emsp; + AWS Single Sign-On <br>&emsp; + IAM Permission Boundaries <br>&emsp; + IAM policies and conditions | 05/09/2025 | 05/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | - Tìm hiểu các dịch vụ bảo mật <br>&emsp; + AWS Security Hub <br>&emsp; + Private Access to S3 with VPC Endpoints <br>&emsp; + AWS WAF, KMS và Amazon Macie | 06/09/2025 | 06/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-
+| 2 | Tìm hiểu quy trình Migration to AWS, đánh giá hệ thống hiện tại và các chiến lược di chuyển workload lên Cloud | 11/05/2026 | 11/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| 3 | Lập kế hoạch migration, xác định dependency, rủi ro và phương án giảm thiểu downtime | 12/05/2026 | 12/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| 4 | Thực hành di chuyển máy chủ ảo lên AWS bằng AWS VM Import/Export | 13/05/2026 | 13/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| 5 | Sử dụng AWS Database Migration Service và Schema Conversion Tool để hỗ trợ migration cơ sở dữ liệu | 14/05/2026 | 14/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| 6 | Kiểm tra kết nối mạng, đánh giá độ ổn định của ứng dụng sau migration và thực hiện tối ưu ban đầu | 15/05/2026 | 15/05/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu cách tagging, IAM và Systems Manager hỗ trợ governance và vận hành an toàn.
-* Nắm vai trò của CloudFormation và CDK trong triển khai hạ tầng lặp lại được.
-* Xác định các dịch vụ bảo mật AWS liên quan đến identity, network access, encryption và phát hiện dữ liệu nhạy cảm.
-* ...
+* Hiểu các bước đánh giá, lập kế hoạch, thực hiện và xác minh một quy trình migration.
+* Biết vai trò của VM Import/Export, DMS và SCT trong di chuyển workload và database.
+* Nhận biết các tiêu chí kiểm tra ứng dụng sau migration và cách hạn chế downtime.

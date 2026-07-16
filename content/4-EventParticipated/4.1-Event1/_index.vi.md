@@ -6,120 +6,175 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “AI & Cloud Sharing Session”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ cách cung cấp ngữ cảnh hiệu quả để AI tạo ra kết quả phù hợp hơn
+- Giới thiệu các trợ lý AI hỗ trợ phân tích dữ liệu và xây dựng workflow
+- Trình bày vai trò của Amazon CloudFront trong tối ưu hiệu năng, bảo mật và chi phí
+- Chia sẻ kinh nghiệm phát triển sản phẩm trong cuộc thi hackathon
+- Giải thích tính không tất định của LLM và các chiến lược giảm thiểu
+- Giới thiệu cách xây dựng hệ thống multi-agent cho bài toán doanh nghiệp
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Tinh Truong** - Context Is Everything: Making AI Actually Work for You
+- **Anh Pham** - Friendly AI Assistant with Amazon Quick
+- **Thinh Nguyen** - From Edge To Origin: CloudFront as Your Foundation
+- **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
+- **Duc Dao** - Non-Determinism of "Deterministic" LLM Settings
+- **Vy Lam** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Context Is Everything: Making AI Actually Work for You — 09:00 - 09:30
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Phân tích lý do AI thường tạo ra kết quả chưa phù hợp khi thiếu context
+- Giải thích ý nghĩa của context khi làm việc với AI
+- Trình bày sự phát triển từ prompt đến memory và khái niệm **Second AI Brain**
+- Chia sẻ tư duy và các mẹo thực tế để cung cấp context tốt hơn
+- Đưa ra góc nhìn nghề nghiệp và cách sinh viên có thể bắt đầu xây dựng với AI
+- Trao đổi thêm với người tham dự qua phần Q&A
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Friendly AI Assistant with Amazon Quick — 09:30 - 09:45
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- **Quick Chat Agent**: Trợ lý AI hỗ trợ khám phá dữ liệu và phân tích insight
+- **Quick Flows**: Tạo workflow thông minh bằng ngôn ngữ tự nhiên mà không cần lập trình
+- **Quick Spaces**: Không gian cộng tác giúp chuyển insight cá nhân thành tri thức chung của nhóm
+- **Quick Sight**: Xây dựng dashboard và report từ dữ liệu thô bằng ngôn ngữ tự nhiên
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### From Edge To Origin: CloudFront as Your Foundation — 09:45 - 10:25
 
-#### Domain-Driven Design (DDD)
+- Giới thiệu cách sử dụng **Amazon CloudFront** cho nhiều loại workload
+- Tối ưu chi phí phân phối nội dung với Amazon CloudFront
+- Tìm hiểu các khả năng bảo mật của CloudFront
+- Nâng cao độ tin cậy của ứng dụng thông qua edge network
+- Cải thiện hiệu năng và giảm độ trễ khi phục vụ người dùng ở nhiều khu vực
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality — 10:25 - 10:55
 
-#### Event-Driven Architecture
+- Lý do Team VIB tham gia LotusHacks
+- Hành trình brainstorm từ con số 0 đến ý tưởng sản phẩm
+- Cách xác định vấn đề và định hình **UTMorpho**
+- Quá trình phát triển sản phẩm trong sprint 36 giờ
+- Những thách thức, thất bại và các bước ngoặt quan trọng
+- Tổng quan sản phẩm UTMorpho và phần demo
+- Bài học rút ra và định hướng tiếp theo
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### Break — 10:55 - 11:00
 
-#### Compute Evolution
+- Thời gian nghỉ ngắn giữa các phiên chia sẻ
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Non-Determinism of "Deterministic" LLM Settings — 11:00 - 11:30
 
-#### Amazon Q Developer
+- Giải thích cách LLM lựa chọn token tiếp theo
+- Phân tích giả định `temperature = 0` sẽ đảm bảo tính tất định
+- Làm rõ ảnh hưởng của các tối ưu trong quá trình inference đến kết quả đầu ra
+- Trình bày tác động thực tế của tính không tất định đối với hệ thống AI
+- Chia sẻ các chiến lược giảm thiểu khi triển khai LLM trong sản phẩm
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+#### Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring — 11:30 - 12:00
+
+- Phân tích sự khác biệt giữa hệ thống ngân hàng truyền thống và dữ liệu của startup
+- Làm rõ khi nào nên và không nên sử dụng Single Agent
+- Giới thiệu mô hình **Multi-Agent Paradigm**
+- Trình bày blueprint của một **Virtual Credit Committee**
+- Phân tích vai trò của guardrails và compliance
+- Đánh giá ROI vận hành và roadmap triển khai
+- Chia sẻ định hướng phát triển tiếp theo và Q&A
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+#### Tư Duy Làm Việc Với AI
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- **Context is everything**: Chất lượng kết quả phụ thuộc nhiều vào bối cảnh, mục tiêu, dữ liệu và ràng buộc được cung cấp
+- **From prompts to memory**: AI đang phát triển từ công cụ hỏi đáp thành hệ thống có khả năng sử dụng memory và tri thức cá nhân
+- **Second AI Brain**: Có thể tổ chức tài liệu, ghi chú và kiến thức để AI hỗ trợ học tập và làm việc hiệu quả hơn
+- **Practical AI mindset**: Không chỉ chọn model mạnh mà còn cần thiết kế context và quy trình sử dụng phù hợp
 
-#### Kiến Trúc Kỹ Thuật
+#### Trợ Lý AI Và Khai Thác Dữ Liệu
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Sử dụng AI assistant để khám phá dữ liệu và phân tích insight
+- Tạo workflow bằng ngôn ngữ tự nhiên mà không cần viết code
+- Chuyển tri thức cá nhân thành nguồn kiến thức có thể chia sẻ trong nhóm
+- Xây dựng dashboard và report trực tiếp từ dữ liệu thô
 
-#### Chiến Lược Hiện Đại Hóa
+#### Kiến Trúc Cloud Và Amazon CloudFront
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- CloudFront không chỉ là CDN mà còn hỗ trợ hiệu năng, bảo mật và độ tin cậy
+- Edge network giúp giảm độ trễ cho người dùng ở nhiều khu vực
+- Cần cân nhắc CloudFront như một lớp nền trong kiến trúc web và API
+- Tối ưu kiến trúc cần cân bằng giữa performance, security và cost
+
+#### Phát Triển Sản Phẩm
+
+- Xác định đúng vấn đề là bước quan trọng trước khi xây dựng giải pháp
+- Trong thời gian giới hạn, team cần phân chia công việc rõ ràng và tập trung vào tính năng cốt lõi
+- Thất bại và thay đổi hướng đi là một phần của quá trình phát triển sản phẩm
+- Demo hoạt động là kết quả của khả năng phối hợp, thích nghi và ra quyết định nhanh
+
+#### Độ Tin Cậy Của LLM
+
+- `temperature = 0` không phải lúc nào cũng bảo đảm kết quả giống nhau hoàn toàn
+- Các tối ưu ở tầng inference có thể ảnh hưởng đến token được lựa chọn
+- Hệ thống AI cần có test, monitoring và cơ chế xử lý sai khác đầu ra
+- Không nên dựa vào một thiết lập duy nhất để đảm bảo tính ổn định
+
+#### Kiến Trúc Multi-Agent
+
+- Single Agent không phải lúc nào cũng phù hợp với quy trình nghiệp vụ phức tạp
+- Multi-agent giúp phân tách trách nhiệm theo từng vai trò chuyên môn
+- Các Agent cần phối hợp theo một quy trình thống nhất thay vì hoạt động độc lập
+- Guardrails và compliance là thành phần quan trọng trong hệ thống AI doanh nghiệp
+- Việc triển khai cần dựa trên giá trị vận hành và roadmap rõ ràng
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Cải thiện prompt và context**: Cung cấp đầy đủ mục tiêu, dữ liệu, ràng buộc và định dạng kết quả khi làm việc với AI
+- **Xây dựng kho tri thức cá nhân**: Áp dụng tư duy Second AI Brain để tổ chức tài liệu và ghi chú học tập
+- **Ứng dụng AI vào workflow**: Nghiên cứu sử dụng AI assistant để phân tích dữ liệu, tạo báo cáo và tự động hóa tác vụ
+- **Tối ưu ứng dụng với CloudFront**: Cân nhắc sử dụng CloudFront để cải thiện performance, security và reliability
+- **Thiết kế khả năng kiểm thử LLM**: Xây dựng bộ test, tiêu chí đánh giá và monitoring thay vì giả định đầu ra luôn tất định
+- **Đánh giá mô hình multi-agent**: Chỉ sử dụng nhiều Agent khi bài toán thật sự cần phân tách vai trò và có cơ chế phối hợp rõ ràng
+- **Áp dụng tư duy hackathon**: Ưu tiên vấn đề cốt lõi, xây dựng MVP và điều chỉnh nhanh dựa trên phản hồi
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia sự kiện **“AI & Cloud Sharing Session”** là một trải nghiệm bổ ích, giúp em có góc nhìn rộng hơn về cách AI và Cloud đang được áp dụng vào học tập, phát triển sản phẩm và hệ thống doanh nghiệp. Một số trải nghiệm nổi bật:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ các diễn giả có chuyên môn
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Mỗi diễn giả mang đến một góc nhìn khác nhau, từ cách làm việc hiệu quả với AI đến thiết kế kiến trúc Cloud và multi-agent.
+- Các nội dung được trình bày gắn với tình huống thực tế, giúp em hiểu rõ hơn giá trị và giới hạn của từng công nghệ.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Thay đổi cách sử dụng AI
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Phiên **Context Is Everything** giúp em nhận ra rằng kết quả AI không chỉ phụ thuộc vào model hay prompt, mà còn phụ thuộc vào chất lượng context.
+- Khái niệm **Second AI Brain** gợi mở cách tổ chức kiến thức cá nhân để AI có thể hỗ trợ học tập và làm việc tốt hơn.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+#### Hiểu thêm về kiến trúc Cloud
+
+- Phiên chia sẻ về Amazon CloudFront giúp em hiểu CloudFront không chỉ dùng để cache nội dung.
+- CloudFront còn có thể trở thành một lớp quan trọng để cải thiện hiệu năng, bảo mật, độ tin cậy và chi phí của hệ thống.
+
+#### Học hỏi từ quá trình xây dựng sản phẩm thực tế
+
+- Câu chuyện 36 giờ phát triển UTMorpho cho thấy tầm quan trọng của việc chọn đúng vấn đề và tập trung vào sản phẩm cốt lõi.
+- Những khó khăn và bước ngoặt của Team VIB cho thấy khả năng thích nghi đóng vai trò quan trọng khi làm việc dưới áp lực thời gian.
+
+#### Nhận thức rõ hơn về giới hạn của LLM
+
+- Phiên về non-determinism giúp em hiểu rằng `temperature = 0` không đồng nghĩa với đầu ra luôn giống nhau.
+- Bài học này rất hữu ích khi thiết kế test và đánh giá độ ổn định cho ứng dụng sử dụng LLM.
+
+#### Tiếp cận hệ thống Multi-Agent trong doanh nghiệp
+
+- Use case Startup Credit Scoring minh họa cách nhiều Agent chuyên biệt có thể phối hợp như một hội đồng tín dụng ảo.
+- Em hiểu thêm rằng hệ thống multi-agent cần guardrails, compliance và quy trình điều phối rõ ràng để có thể triển khai trong thực tế.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+
+*Thêm các hình ảnh khi tham gia sự kiện tại đây*
+
+> Tổng thể, sự kiện không chỉ cung cấp kiến thức về AI và Cloud mà còn giúp em thay đổi cách tư duy về context, độ tin cậy của LLM, phát triển sản phẩm và thiết kế hệ thống multi-agent trong môi trường thực tế.

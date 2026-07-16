@@ -1,57 +1,30 @@
 ---
 title: "Week 8 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Study and practice AI/ML services on AWS.
+* Learn Generative AI, Foundation Models, Computer Vision, and NLP.
+* Understand Machine Learning workflows, MLOps, and Responsible AI principles.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+**Duration:** June 8, 2026 - June 14, 2026
 
+### Learning content this week:
+| Day | Learning content | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | Reviewed AWS AI/ML services and their applications in intelligent systems | 06/08/2026 | 06/08/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Tuesday | Studied Foundation Models, Generative AI, and LLM use cases for automation | 06/09/2026 | 06/09/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Wednesday | Studied Computer Vision and NLP and practiced image, video, and natural-language analysis use cases | 06/10/2026 | 06/10/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Thursday | Practiced data preparation, model building, training, deployment, and optimization | 06/11/2026 | 06/11/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
+| Friday | Learned MLOps workflows and Responsible AI principles for effective, transparent, and safe AI systems | 06/12/2026 | 06/12/2026 | [Cloud Journey](https://cloudjourney.awsstudygroup.com) |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Understood AWS AI/ML and Generative AI service categories.
+* Learned the basic workflow from data and training to model deployment and optimization.
+* Recognized the importance of MLOps and Responsible AI in real systems.
