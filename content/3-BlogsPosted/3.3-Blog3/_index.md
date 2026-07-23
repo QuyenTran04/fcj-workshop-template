@@ -1,5 +1,5 @@
 ---
-title: "AgentCore Harness: From Idea to a Working AI Agent with Just Two APIs"
+title: "Blog 3"
 date: 2026-07-23
 weight: 3
 chapter: false
