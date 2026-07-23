@@ -25,6 +25,10 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20-04-2026 đến ngày 30-07-2026
 
+<p style="text-align: center;">
+  <img src="/images/avatar.png" alt="Ảnh đại diện của Trần A Quyền" width="960" height="1280" style="width: 100%; max-width: 320px; height: auto; display: inline-block; border-radius: 8px;" />
+</p>
+
 ### Nội dung báo cáo
 
 1.  [Worklog](1-Worklog/)

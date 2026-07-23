@@ -175,6 +175,8 @@ Attending the **“AI & Cloud Sharing Session”** was a valuable experience tha
 
 #### Some event photos
 
-*Add event photos here*
+<img src="/images/4-EventParticipated/4.1-Event1/01-workshop-exercises.png" alt="Workshop exercise slide covering authentication, guardrails, permission boundaries, MCP integration, and Terraform deployment" width="960" height="1280" style="width: 100%; max-width: 760px; height: auto; display: block; margin: 1.5rem auto 0.5rem; border-radius: 6px;" />
+
+<p style="text-align: center;"><em>Workshop exercises for adding enterprise-grade authentication, guardrails, access control, MCP integration, and infrastructure deployment.</em></p>
 
 > Overall, the event not only provided knowledge about AI and Cloud but also changed how I think about context, LLM reliability, product development, and multi-agent system design in real-world environments.

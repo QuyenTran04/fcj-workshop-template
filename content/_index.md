@@ -31,6 +31,10 @@ chapter: false
 
 &emsp; **Internship Duration:** From 20-04-2026 to 30-07-2026
 
+<p style="text-align: center;">
+  <img src="/images/avatar.png" alt="Portrait of Tran A Quyen" width="960" height="1280" style="width: 100%; max-width: 320px; height: auto; display: inline-block; border-radius: 8px;" />
+</p>
+
 ### Report Content
 
 1.  [Worklog](1-Worklog/)
